@@ -26,7 +26,6 @@ const StaffCard = () => {
                       src={image}
                       alt={alt}
                       className="staff-pfp rounded-circle"
-                      id={id}
                     />
                     <h6 className="d-flex align-items-end">{role}</h6>
                   </div>

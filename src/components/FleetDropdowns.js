@@ -17,7 +17,7 @@ const FleetDropdowns = () => {
           {SAAVFleet.map(
             ({ id, aircraft, image, range, crzSpeed, maxAlt, capacity, alt }) => (
               <>
-                <Accordion.Item eventKey={id} >
+                <Accordion.Item>
                   <Accordion.Header>{aircraft}</Accordion.Header>
 
                   <Accordion.Body className="accordion__fleet">
