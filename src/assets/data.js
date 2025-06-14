@@ -27,6 +27,10 @@ import img15 from "./fo__rank.jpg";
 import img16 from "./senior__pilot_rank.jpg";
 import img17 from "./captain__rank.jpg";
 
+//hubs
+import img18 from "./faor__airport.jpeg";
+import img19 from "./fact__airport.jpeg";
+
 export const homeHeader = [
   {
     id: "1",
@@ -414,5 +418,23 @@ export const RanksHeader = [
   {
     id: "50",
     title: "SAAV Pilot Ranks",
+  },
+];
+
+export const HubAiport1 = [
+  {
+    id: "51",
+    image: img18,
+    name: "FAOR(O.R Tambo) Intl Airport",
+    alt: "faor__airport",
+  },
+];
+
+export const HubAiport2 = [
+  {
+    id: "52",
+    image: img19,
+    name: "Cape Town Intl Airport",
+    alt: "fact__airport",
   },
 ];

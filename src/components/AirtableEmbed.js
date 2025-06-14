@@ -8,18 +8,18 @@ import { ReactComponent as AirtableLogo } from "../assets/Airtable_Logo.svg";
 import { GiRadarSweep } from "react-icons/gi";
 import { TbBuildingAirport } from "react-icons/tb";
 
-import { routeHeader } from "../assets/data";
+import { routeHeader, HubAiport1, HubAiport2 } from "../assets/data";
 
 const AirtableEmbed = () => {
   return (
     <>
       <div className="main-container">
         <div className="p-4">
-         {routeHeader.map(({id, description}) => (
-          <p className="route__description text-center px-1" key={id}>
-            {description}
-          </p>
-         ))}
+          {routeHeader.map(({ id, description }) => (
+            <p className="route__description text-center px-1" key={id}>
+              {description}
+            </p>
+          ))}
         </div>
         <div className="routedb-header">
           <AirtableLogo className="airtable-logo my-4" />
@@ -33,6 +33,38 @@ const AirtableEmbed = () => {
             onmousewheel=""
             title="SAAV-db"
           />
+        </div>
+
+        <div className="container container__hubs mt-3 p-3">
+          <div className="images__container">
+            {HubAiport1.map(({ id, image, alt, name }) => (
+              <>
+                <div className="img__hubs">
+                  <img
+                    id={id}
+                    src={image}
+                    alt={alt}
+                    className="rounded my-3 shadow-lg hub__images"
+                  />
+                  <p className="text-center m-3">{name}</p>
+                </div>
+              </>
+            ))}
+
+            {HubAiport2.map(({ id, image, alt, name }) => (
+              <>
+                <div className="img__hubs">
+                  <img
+                    id={id}
+                    src={image}
+                    alt={alt}
+                    className="rounded my-3 shadow-lg hub__images"
+                  />
+                  <p className="text-center m-3">{name}</p>
+                </div>
+              </>
+            ))}
+          </div>
         </div>
 
         <div className=" py-2 m-4 text-center">
@@ -59,25 +91,20 @@ const AirtableEmbed = () => {
                 </a>
               </Button>
 
-              <h6 className="text-muted mt-4">
-            Routes & Destinations
-          </h6>
-          <Button variant="dark" className="btn btn-dark ">
-            <a
-              href="https://my.flightradar24.com/SouthAfricanVirtual"
-              className="text-decoration-none text-white"
-            >
-              Routes Map <GiRadarSweep className="fs-2 " />
-            </a>
-          </Button>
+              <h6 className="text-muted mt-4">Routes & Destinations</h6>
+              <Button variant="dark" className="btn btn-dark ">
+                <a
+                  href="https://my.flightradar24.com/SouthAfricanVirtual"
+                  className="text-decoration-none text-white"
+                >
+                  Routes Map <GiRadarSweep className="fs-2 " />
+                </a>
+              </Button>
             </ButtonGroup>
-    
           </div>
         </div>
 
-        <div>
-          {/*<CodeShares />*/}
-        </div>
+        <div>{/*<CodeShares />*/}</div>
       </div>
     </>
   );
