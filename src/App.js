@@ -25,7 +25,7 @@ const App = () => {
       <ScrollToTop className="scroll__btn shadow" smooth />
 
       <Routes>
-        <Route path="/sa-virtual/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/sa-virtual/aboutUs" element={<AboutUs />} />
         <Route path="/sa-virtual/routedb" element={<RouteDb />} />
         <Route path="/sa-virtual/applyNow" element={<ApplyNow />} />

@@ -18,7 +18,7 @@ const NavBar = ({ onClick }) => {
   const handleShow = () => setShow(true);
 
   const navLinks = [
-    { path: "/sa-virtual/home", title: "Home" },
+    { path: "/", title: "Home" },
     { path: "/sa-virtual/applyNow", title: "Apply Now" },
     { path: "/sa-virtual/staff", title: "Staff" },
     { path: "/sa-virtual/fleet", title: "Fleet" },
