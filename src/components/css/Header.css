@@ -14,10 +14,6 @@
 
 
 @media (width > 900px ) {
-  .landing__carousel{
-    display: none;
-  }
-
   .header__h3{
     font-size: 2.6rem;
   }
