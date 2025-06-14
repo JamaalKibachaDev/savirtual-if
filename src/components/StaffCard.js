@@ -18,13 +18,13 @@ const StaffCard = () => {
 
    
           <Card className="staff__card" border="secondary">
-            {staffPage.map(({ id, image, description, username, role }) => (
+            {staffPage.map(({ id, image, description, username, role, alt }) => (
               <>
                 <Card.Header className="bg-gradient">
                   <div className="d-flex justify-content-between">
                     <img
                       src={image}
-                      alt="staff-pfp"
+                      alt={alt}
                       className="staff-pfp rounded-circle"
                       id={id}
                     />

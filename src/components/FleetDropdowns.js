@@ -15,7 +15,7 @@ const FleetDropdowns = () => {
 
         <Accordion defaultActiveKey="0" flush className="pb-4" >
           {SAAVFleet.map(
-            ({ id, aircraft, image, range, crzSpeed, maxAlt, capacity }) => (
+            ({ id, aircraft, image, range, crzSpeed, maxAlt, capacity, alt }) => (
               <>
                 <Accordion.Item eventKey={id} >
                   <Accordion.Header>{aircraft}</Accordion.Header>
@@ -25,7 +25,7 @@ const FleetDropdowns = () => {
                       <img
                         src={image}
                         className="fleet__img rounded my-2"
-                        alt="a330-fleet"
+                        alt={alt}
                       />
                     </div>
 

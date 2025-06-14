@@ -9,8 +9,6 @@ import img1_2 from "./saav-q400-tail.jpg";
 import img2 from "./josiah-dennis-pfp.jpeg";
 import img3 from "./lufthansa1-pfp.jpeg";
 
-
-
 //fleet
 import img4 from "./a330-fleet.jpg";
 import img5 from "./saav-a350.jpeg";
@@ -23,14 +21,11 @@ import img11 from "./saav-dash8.jpg";
 import img12 from "./saav-crj700.jpg";
 import img13 from "./saav-crj-200.jpg";
 
-
 //ranks
 import img14 from "./trainee__rank.jpg";
 import img15 from "./fo__rank.jpg";
 import img16 from "./senior__pilot_rank.jpg";
 import img17 from "./captain__rank.jpg";
-
-
 
 export const homeHeader = [
   {
@@ -115,7 +110,6 @@ export const homeAccordion = [
   },
 ];
 
-
 export const applyHeader = [
   {
     id: "11",
@@ -153,7 +147,6 @@ export const applyRequirements = [
   },
 ];
 
-
 export const staffHeader = [
   {
     id: "16",
@@ -165,12 +158,13 @@ export const staffPage = [
   //staffPage
 
   {
-    id: "17",
+    id: "1",
     image: img2,
     description:
       "Welcome New Pilots!👋 I am Josiah Dennis, a 14 year old aviator who has been flying in the virual skies for over 3 years. Thank you for having a look at our website and we hope to see you soon.",
     username: "Josiah Dennis",
     role: "- SAAV CEO",
+    alt: "staff-pfp",
   },
 
   {
@@ -180,9 +174,9 @@ export const staffPage = [
       "On Behalf of the Crew, Welcome to South African Virtual, pilots! Here you can fly a large variety of routes and aircrafts together with other SAAV pilots. Have fun!🛫",
     username: "Lufthansa1",
     role: "- SAAV COO",
+    alt: "staff-pfp",
   },
 ];
-
 
 export const SAAVFleet = [
   {
@@ -193,6 +187,7 @@ export const SAAVFleet = [
     crzSpeed: "0.86",
     maxAlt: "410",
     capacity: "440",
+    alt: "a330img",
   },
 
   {
@@ -203,6 +198,7 @@ export const SAAVFleet = [
     crzSpeed: "0.85",
     maxAlt: "430",
     capacity: "440",
+    alt: "a350img",
   },
 
   {
@@ -213,6 +209,7 @@ export const SAAVFleet = [
     crzSpeed: "0.83",
     maxAlt: "415",
     capacity: "400",
+    alt: "a340img",
   },
 
   {
@@ -223,6 +220,7 @@ export const SAAVFleet = [
     crzSpeed: "0.78",
     maxAlt: "390",
     capacity: "180",
+    alt: "a320img",
   },
 
   {
@@ -233,6 +231,7 @@ export const SAAVFleet = [
     crzSpeed: "0.78",
     maxAlt: "400",
     capacity: "150",
+    alt: "a319img",
   },
 
   {
@@ -243,6 +242,7 @@ export const SAAVFleet = [
     crzSpeed: "0.85",
     maxAlt: "450",
     capacity: "550",
+    alt: "747img",
   },
 
   {
@@ -253,6 +253,7 @@ export const SAAVFleet = [
     crzSpeed: "0.78",
     maxAlt: "410",
     capacity: "162",
+    alt: "737img",
   },
 
   {
@@ -263,6 +264,7 @@ export const SAAVFleet = [
     crzSpeed: "0.55",
     maxAlt: "250",
     capacity: "78",
+    alt: "q400img",
   },
 
   {
@@ -273,6 +275,7 @@ export const SAAVFleet = [
     crzSpeed: "0.80",
     maxAlt: "410",
     capacity: "75",
+    alt: "crj7img",
   },
 
   {
@@ -283,6 +286,7 @@ export const SAAVFleet = [
     crzSpeed: "0.74",
     maxAlt: "410",
     capacity: "50",
+    alt: "crj2img",
   },
 ];
 
@@ -294,9 +298,6 @@ export const routeHeader = [
   },
 ];
 
-
-
-
 export const Ranks = [
   { id: "30", image: "/", alt: "/", title: "/", description: "/" },
   { id: "31", image: "/", alt: "/", title: "/", description: "/" },
@@ -305,119 +306,113 @@ export const Ranks = [
   { id: "34", image: "/", alt: "/", title: "/", description: "/" },
 ];
 
-
 export const StaffCrewHeader = [
   {
     id: "35",
     title: "Our Staff: ",
-    description: 'Of Course we need to give some recognition to the people who make this all possible behind the scenes. We are always grateful for their hard work and dedication👌:',
-  }
-]
+    description:
+      "Of Course we need to give some recognition to the people who make this all possible behind the scenes. We are always grateful for their hard work and dedication👌:",
+  },
+];
 
 export const StaffCrew = [
-
   {
     id: "36",
     name: "Dimitrios_TA",
-    Rank: "Contracting Officer Rep"
+    Rank: "Contracting Officer Rep",
   },
 
   {
     id: "37",
     name: "Rile",
-    Rank: "Chief Financial Officer"
+    Rank: "Chief Financial Officer",
   },
 
   {
     id: "38",
     name: "SynxChazz",
-    Rank: "Chief Marketing Officer"
+    Rank: "Chief Marketing Officer",
   },
 
   {
     id: "39",
     name: "JurassicWorld4Ever",
-    Rank: "Event Manager"
+    Rank: "Event Manager",
   },
   {
     id: "40",
     name: "Cappy",
-    Rank: "Human Resource"
+    Rank: "Human Resource",
   },
   {
     id: "41",
     name: "Uncle_Kofi",
-    Rank: "HR Assistant"
+    Rank: "HR Assistant",
   },
   {
     id: "42",
     name: "Aviator1",
-    Rank: "Social Media Marketing"
+    Rank: "Social Media Marketing",
   },
 
   {
     id: "",
     name: "InfiniteBreezy",
-    Rank: "SMM Assistant"
+    Rank: "SMM Assistant",
   },
   {
     id: "43",
     name: "Gary_Evans",
-    Rank: "Route Manager"
+    Rank: "Route Manager",
   },
 
   {
     id: "",
     name: "Action_Jackson",
-    Rank: "Flight Supervisor"
+    Rank: "Flight Supervisor",
   },
-  
+
   {
     id: "44",
     name: "Educate_Learn2",
-    Rank: "CEO Aids"
+    Rank: "CEO Aids",
   },
   {
     id: "45",
     name: "ST-ART",
-    Rank: "CEO Aids"
+    Rank: "CEO Aids",
   },
-
-]
+];
 
 export const ranksData = [
   {
     id: "46",
-    image:img14,
-    description: 'Trainee Rank' 
+    image: img14,
+    description: "Trainee Rank",
   },
 
   {
     id: "47",
-    image:img15,
-    description: 'First Officer' 
+    image: img15,
+    description: "First Officer",
   },
 
   {
     id: "48",
-    image:img17,
-    description: 'Captain' 
+    image: img17,
+    description: "Captain",
   },
 
   {
     id: "49",
-    image:img16,
-    description: 'Senior Pilot' 
+    image: img16,
+    description: "Senior Pilot",
   },
-]
-
+];
 
 export const RanksHeader = [
   {
     id: "50",
-    title: "SAAV Pilot Ranks"
-  }
-]
-
-
-
+    title: "SAAV Pilot Ranks",
+  },
+];
