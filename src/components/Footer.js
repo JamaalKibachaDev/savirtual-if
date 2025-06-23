@@ -1,8 +1,12 @@
 import React from "react";
 import { MDBFooter, MDBContainer } from "mdb-react-ui-kit";
 
-import { FaTiktok, FaDiscord, FaYoutube } from "react-icons/fa";
+
+import { FaTiktok, FaYoutube } from "react-icons/fa";
 import { IoMailOpenOutline } from "react-icons/io5";
+
+import IF_Logo  from '../assets/if_logo.png'
+
 
 import './css/Footer.css';
 
@@ -13,29 +17,28 @@ const Footer = () => {
         <MDBFooter className="text-center text-white bg-dark bg-gradient">
           <MDBContainer className="pb-0">
             <section className="p-4">
-              <div className="fs-3">
+            <div className="fs-3 mb-4">
                 <h2>Socials :</h2>
-
-                <a href="//" className="text-white">
-                  <FaDiscord className="me-5" />
+          
+                <a href="https://community.infiniteflight.com/" className="text-white">
+                <img src={IF_Logo} alt="infinite_flight_logo" className="if__logo me-4"/>
                 </a>
+
 
                 <a href="https://www.youtube.com/channel/UCz2OIouIHesDhlfAsLz7qDg" className="text-white">
                   <FaYoutube className="me-5" />
                 </a>
 
-                <a href="/" className="text-white">
+                <a href="https://www.tiktok.com/@ifsouthafricanva1" className="text-white">
                   <FaTiktok className="me-5"/>
                 </a>
 
                 <a href="mailto:southafricanvirtual1@gmail.com" className="text-white">
-                  <IoMailOpenOutline className=""/>
+                  <IoMailOpenOutline/>
                 </a>
               </div>
 
-              <div className="d-flex justify-content-center m-4">
-              <iframe src="https://www.youtube.com/embed/seXXlycb6Lc?si=TjXFfW37NomOCQZT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </div>
+            
 
               <div className="">
                 <p className="footer__desc text-secondary">

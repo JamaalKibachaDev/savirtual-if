@@ -29,7 +29,7 @@ const FleetDropdowns = () => {
                       />
                     </div>
 
-                    <div className="d-flex justify-content-center">
+                    <div className="d-flex justify-content-center mx-1">
                       <ul className="fleet__ul">
                         <li className="fleet__li">
                           <span className="fw-bold">Range:</span> {range}km

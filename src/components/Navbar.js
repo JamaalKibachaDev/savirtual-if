@@ -24,7 +24,7 @@ const NavBar = ({ onClick }) => {
     { path: "/sa-virtual/fleet", title: "Fleet" },
     { path: "/sa-virtual/routedb", title: "Hubs & Route Database" },
     { path: "/sa-virtual/ranks", title: "Ranks" },
-    { path: "#", title: "Crew Center" },
+    { path: "https://www.digitalcrew.app/", title: "Crew Center" },
   ];
 
   return (

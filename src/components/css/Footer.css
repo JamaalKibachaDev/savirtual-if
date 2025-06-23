@@ -1,6 +1,15 @@
+
+.if__logo{
+    width: 1.8em;
+}
+
+.footer__desc{
+    font-style: oblique;
+}
+
+
 @media (width > 700px ){
     .footer__desc{
         margin-inline: 4em;
-        font-style: oblique;
     }
 }

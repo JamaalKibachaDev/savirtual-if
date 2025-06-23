@@ -20,12 +20,12 @@ const StaffRanks = () => {
           ))}
 
           <div className="staff__container border-top">
-            {StaffCrew.map(({ id, name, Rank }) => (
+            {StaffCrew.map(({ id, name, Rank, link}) => (
               <>
-                <div className="staff__ranks mt-2">
-                 <p className="staff__p text-muted">
-                    {name}: {Rank}
-                 </p>
+                <div className="staff__ranks mt-4 text-center">
+                  <a href={link} className="text-secondary text-decoration-none">
+                  {name}: {Rank}
+                  </a>
                 </div>
               </>
             ))}

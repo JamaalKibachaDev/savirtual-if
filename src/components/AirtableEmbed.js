@@ -35,38 +35,62 @@ const AirtableEmbed = () => {
           />
         </div>
 
+
+<hr/>
         <div className="container container__hubs mt-3 p-3">
           <div className="images__container">
-            {HubAiport1.map(({ id, image, alt, name }) => (
+            {HubAiport1.map(({ id, image, alt, name, opened, elevation, rwy1, rwy2 }) => (
               <>
                 <div className="img__hubs">
                   <img
                     id={id}
                     src={image}
                     alt={alt}
-                    className="rounded my-3 shadow-lg hub__images"
+                    className="rounded my-3 shadow hub__images"
                   />
-                  <p className="text-center m-3">{name}</p>
+                  <p className="text-center m-2 fw-bold">{name}</p>
+                  <p className="text-center">
+                    Opened: {opened}
+                    <br/>
+                    Elevation: {elevation}
+                  </p>
+
+                  <h6 className="text-center">Runways</h6>
+                  <p className="text-center">
+                   {rwy1} <br/> {rwy2}
+                  </p>
                 </div>
               </>
             ))}
 
-            {HubAiport2.map(({ id, image, alt, name }) => (
+            {HubAiport2.map(({ id, image, alt, name, opened, elevation, rwy1, rwy2 }) => (
               <>
                 <div className="img__hubs">
                   <img
                     id={id}
                     src={image}
                     alt={alt}
-                    className="rounded my-3 shadow-lg hub__images"
+                    className="rounded my-3 shadow hub__images"
                   />
-                  <p className="text-center m-3">{name}</p>
+                  <p className="text-center m-2 fw-bold">{name}</p>
+                  <p className="text-center">
+                    Opened: {opened}
+                    <br/>
+                    Elevation: {elevation}
+                  </p>
+                
+                  <h6 className="text-center">Runways</h6>
+                  <p className="text-center">
+                   {rwy1} <br/> {rwy2}
+                  </p>
+                  
                 </div>
               </>
             ))}
           </div>
         </div>
 
+<hr/>
         <div className=" py-2 m-4 text-center">
           <h2>Quick Links:</h2>
           <div className="d-flex justify-content-center my-2 p-3">

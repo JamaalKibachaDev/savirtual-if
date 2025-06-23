@@ -11,6 +11,14 @@
   font-weight: 800;
 }
 
+.apply__btn{
+  transition: 0.5s;
+}
+
+.apply__btn:hover{
+  transform: scale(1.08);
+}
+
 
 
 @media (width > 900px ) {

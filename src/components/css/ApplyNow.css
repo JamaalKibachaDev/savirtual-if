@@ -1,7 +1,19 @@
-.list-group{
-    box-shadow: 2px 2px 4px;
+
+.requirements__ul{
+    list-style-type:square;
+}
+.requirements__li{
+    font-size: 0.85em;
+    font-style: oblique;
 }
 
+.google__forms{
+    transition: 0.6s;
+}
+
+.google__forms:hover{
+    transform: scale(1.07);
+}
 
 
 @media (width > 750px ){
@@ -14,11 +26,12 @@
     .apply__h2{
         margin-inline:6em;
     }
-    .list-group{
-      margin-inline: 10em;
-    }
 
     .apply__a{
         font-size: larger;
+    }
+
+    .requirements__li{
+        font-size: 1em;
     }
 }

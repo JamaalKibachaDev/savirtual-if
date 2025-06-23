@@ -20,6 +20,7 @@ import img10 from "./saav-b738.jpeg";
 import img11 from "./saav-dash8.jpg";
 import img12 from "./saav-crj700.jpg";
 import img13 from "./saav-crj-200.jpg";
+import img20 from "./f18-fleet.jpg";
 
 //ranks
 import img14 from "./trainee__rank.jpg";
@@ -128,26 +129,22 @@ export const applyRequirements = [
 
   {
     id: "12",
-    key: "Minimum Age",
-    value: "13 Years",
+    value: "You must be 13 years old or above",
   },
 
   {
     id: "13",
-    key: "IF Grade",
-    value: "Grade 2 and above",
+    value: "You must be at least Grade 2",
   },
 
   {
     id: "14",
-    key: "Conduct",
-    value: "Not on IFC Blacklist/Watchlist",
+    value: "Valid Infinite Flight Pro Subscription",
   },
 
   {
     id: "15",
-    key: "IF PRO",
-    value: "Valid IF Subscription",
+    value: "Active IFC account (Must be in good standing)",
   },
 ];
 
@@ -292,13 +289,24 @@ export const SAAVFleet = [
     capacity: "50",
     alt: "crj2img",
   },
+
+  {
+    id: "29",
+    aircraft: "F/A-18E Super Hornet",
+    image: img20,
+    range: "3000",
+    crzSpeed: "0.74",
+    maxAlt: "410",
+    capacity: "50",
+    alt: "crj2img",
+  },
 ];
 
 export const routeHeader = [
   {
-    id: "29",
+    id: "",
     description:
-      "We serve many passengers with many different backgrounds out of our two major hubs : O.R. Tambo International Airport & Cape Town International Airport. Our joy is flying, yours is sitting back and relaxing as we bring the comfort to the Virtual world. You can reserve a gate on our discord server without any issues.Thank you for your time and support. Good Day! CEO Signing off😎",
+      "We serve many passengers with many different backgrounds out of our two major hubs: O.R. Tambo International Airport & Cape Town International Airport. Our joy is flying, yours is sitting back and relaxing as we bring the comfort to the Virtual world. You can reserve a gate on our discord server without any issues.",
   },
 ];
 
@@ -315,7 +323,7 @@ export const StaffCrewHeader = [
     id: "35",
     title: "Our Staff: ",
     description:
-      "Of Course we need to give some recognition to the people who make this all possible behind the scenes. We are always grateful for their hard work and dedication👌:",
+      "We really appreciate the work and effort put in by our staff in the VA Operations. Feel free to reach out to them via IFC in case of any inquiries🫡:",
   },
 ];
 
@@ -324,67 +332,86 @@ export const StaffCrew = [
     id: "36",
     name: "Dimitrios_TA",
     Rank: "Contracting Officer Rep",
+    link: new URL("https://community.infiniteflight.com/u/dimitrios_ta/summary"),
   },
 
   {
     id: "37",
     name: "Rile",
     Rank: "Chief Financial Officer",
+    link: new URL("https://community.infiniteflight.com/u/rile/summary"),
   },
 
   {
     id: "38",
     name: "SynxChazz",
     Rank: "Chief Marketing Officer",
+    link: new URL("https://community.infiniteflight.com/u/SynxChazz/summary"),
   },
 
   {
     id: "39",
     name: "JurassicWorld4Ever",
     Rank: "Event Manager",
+    link: new URL("https://community.infiniteflight.com/u/JurassicWorld4Ever/summary"),
   },
   {
     id: "40",
     name: "Cappy",
     Rank: "Human Resource",
+    link: new URL("https://community.infiniteflight.com/u/cappy/summary"),
   },
   {
     id: "41",
     name: "Uncle_Kofi",
     Rank: "HR Assistant",
+    link: new URL("https://community.infiniteflight.com/u/Uncle_Kofi/summary"),
   },
   {
     id: "42",
     name: "Aviator1",
     Rank: "Social Media Marketing",
+    link: new URL("https://community.infiniteflight.com/u/Avaitor1/summary"),
   },
 
   {
     id: "",
     name: "InfiniteBreezy",
     Rank: "SMM Assistant",
+    link: new URL("https://community.infiniteflight.com/u/InfiniteBreezy/summary"),
   },
   {
     id: "43",
     name: "Gary_Evans",
     Rank: "Route Manager",
+    link: new URL("https://community.infiniteflight.com/u/Gary_Evans/summary"),
   },
 
   {
     id: "",
     name: "Action_Jackson",
     Rank: "Flight Supervisor",
+    link: new URL("https://community.infiniteflight.com/u/Action_jackson/summary"),
+  },
+
+  {
+    id: "",
+    name: "Mouse_MD",
+    Rank: "Data Analysis Officer",
+    link: new URL("https://community.infiniteflight.com/u/Mouse_MD/summary"),
   },
 
   {
     id: "44",
     name: "Educate_Learn2",
     Rank: "CEO Aids",
+    link: new URL("https://community.infiniteflight.com/u/Educate_Learn2/summary"),
   },
   {
     id: "45",
     name: "ST-ART",
     Rank: "CEO Aids",
+    link: new URL("https://community.infiniteflight.com/u/ST-ART/summary"),
   },
 ];
 
@@ -426,6 +453,10 @@ export const HubAiport1 = [
     id: "51",
     image: img18,
     name: "FAOR(O.R Tambo) Intl Airport",
+    opened: "1952",
+    elevation: "5,558 ft / 1,694 m",
+    rwy1: "03L/21R - 14,500 ft",
+    rwy2: "03R/21L - 11,155 ft",
     alt: "faor__airport",
   },
 ];
@@ -435,6 +466,10 @@ export const HubAiport2 = [
     id: "52",
     image: img19,
     name: "Cape Town Intl Airport",
+    opened: "1954",
+    elevation: "151 ft / 46 m",
+    rwy1: "01/19 - 10,500 ft",
+    rwy2: "16/34 - 5,581 ft",
     alt: "fact__airport",
   },
 ];
