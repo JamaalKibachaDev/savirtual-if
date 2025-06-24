@@ -35,7 +35,7 @@ const FleetDropdowns = () => {
                           <span className="fw-bold">Range:</span> {range}km
                         </li>
                         <li className="fleet__li">
-                          <span className="fw-bold">CRZ Spd :</span> M{crzSpeed}
+                          <span className="fw-bold">Cruise Spd :</span> M{crzSpeed}
                         </li>
                         <li className="fleet__li">
                           <span className="fw-bold">Max Altitide: </span>FL{maxAlt}

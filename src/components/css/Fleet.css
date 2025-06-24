@@ -10,13 +10,13 @@
 
 .fleet__li{
     margin: 0.35em;
+    margin-right: 2em;
 }
+
+
 
 @media (width > 700px) {
 
-    .fleet__img__container{
-        margin-inline: 5em;
-    }
     .accordion__fleet{
         display: flex;
         align-items: center;

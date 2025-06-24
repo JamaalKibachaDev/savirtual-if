@@ -3,8 +3,9 @@
     list-style-type:square;
 }
 .requirements__li{
-    font-size: 0.85em;
-    font-style: oblique;
+    font-size: 1em;
+    font-style: italic;
+
 }
 
 .google__forms{

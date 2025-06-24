@@ -1,19 +1,21 @@
 .staff__crew__p{
-    font-size: 13px;
-    font-weight: 400;
+    font-size: 0.9em;
 }
 
-.staff__p{
-    display: flex;
-    justify-content: center;
-}
 
 .staff-pfp{
     width: 25%;
 }
 
+.h6__links{
+    text-decoration: overline;
+    font-weight: 900;
+    font-style: italic;
+}
+
 .staff__crew{
     margin-top: 3em;
+    font-style: italic;
 }
 
 

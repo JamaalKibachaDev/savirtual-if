@@ -323,7 +323,7 @@ export const StaffCrewHeader = [
     id: "35",
     title: "Our Staff: ",
     description:
-      "We really appreciate the work and effort put in by our staff in the VA Operations. Feel free to reach out to them via IFC in case of any inquiries🫡:",
+      "We really appreciate the work and effort put in by our staff in the VA Operations. Feel free to reach out to them via IFC in case of any inquiries:",
   },
 ];
 

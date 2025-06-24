@@ -12,11 +12,12 @@ const Home = () => {
 
         <div>
           <div>
+            <VATrailer />
             <InfoCards />
           </div>
 
           <AccordionHeader />
-          <VATrailer />
+          
         </div>
       </div>
     </>

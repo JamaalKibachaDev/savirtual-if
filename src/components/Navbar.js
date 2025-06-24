@@ -19,12 +19,13 @@ const NavBar = ({ onClick }) => {
 
   const navLinks = [
     { path: "/", title: "Home" },
-    { path: "/sa-virtual/applyNow", title: "Apply Now" },
+ 
     { path: "/sa-virtual/staff", title: "Staff" },
     { path: "/sa-virtual/fleet", title: "Fleet" },
     { path: "/sa-virtual/routedb", title: "Hubs & Route Database" },
     { path: "/sa-virtual/ranks", title: "Ranks" },
     { path: "https://www.digitalcrew.app/", title: "Crew Center" },
+    { path: "/sa-virtual/applyNow", title: "Apply Now" },
   ];
 
   return (

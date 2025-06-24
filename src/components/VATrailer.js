@@ -3,7 +3,7 @@ import React from "react";
 const VATrailer = () => {
   return (
     <>
-      <div className="container">
+
         <div className="d-flex justify-content-center m-4">
           <iframe
             src="https://www.youtube.com/embed/seXXlycb6Lc?si=TjXFfW37NomOCQZT"
@@ -17,7 +17,7 @@ const VATrailer = () => {
        <blockquote className="text-center text-secondary">
         SAAV Trailer
        </blockquote>
-      </div>
+
     </>
   );
 };
