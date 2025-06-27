@@ -1,66 +1,71 @@
-
 .info-card {
   box-shadow: -1px 1px 5px;
 }
 
-.card__body{
+.carousel__img {
+  width: 100%;
+}
+
+.card__body {
   transition: 0.5s;
 }
 
-.card__body:hover{
+.card__body:hover {
   transform: scale(1.05);
 }
 
-.header__h3{
+.header__h3 {
   font-size: 1.6rem;
 }
 
-.accordion__desc{
+.accordion__desc {
   font-weight: 800;
 }
 
-.apply__btn{
+.apply__btn {
   transition: 0.5s;
 }
 
-.apply__btn:hover{
+.apply__btn:hover {
   transform: scale(1.08);
 }
 
-
-.quote__left, .quote__right{
+.quote__left,
+.quote__right {
   font-size: 2em;
   margin: 0.5em;
 }
 
-.testimonials__h4{
+.testimonials__h4 {
   text-decoration: overline 0.5px;
   font-style: italic;
 }
 
 
-@media (width > 900px ) {
-  .header__h3{
+@media (width > 900px) {
+  .header__h3 {
     font-size: 2.6rem;
   }
 
-  .card__container,  .accordion__container{
+  .card__container,
+  .accordion__container {
     margin-inline: 10em;
-
   }
-
- 
 }
 
-@media (width > 1050px ) {
-  .landing__carousel{
-    display: none;
+@media (width > 1050px) {
+  .carousel__img {
+    padding: 3.5em;
   }
 
-  .header__h3{
+  .header__h3 {
     font-size: 2.6rem;
   }
-  .card__container{
+  .card__container {
     margin-inline: 15em;
+  }
+
+  .testimonial__p {
+    margin: 3em;
   }
 }

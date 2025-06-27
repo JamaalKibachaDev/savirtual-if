@@ -4,6 +4,7 @@ import InfoCards from "../components/InfoCards";
 import AccordionHeader from "../components/AccordionHeader";
 import VATrailer from "../components/VATrailer";
 import PilotTestimony from "../components/PilotTestimony";
+import HeaderCounters from "../components/HeaderCounters";
 
 const Home = () => {
   return (
@@ -13,13 +14,13 @@ const Home = () => {
 
         <div>
           <div>
+            <HeaderCounters />
             <VATrailer />
-            <PilotTestimony/>
+            <PilotTestimony />
             <InfoCards />
           </div>
 
           <AccordionHeader />
-          
         </div>
       </div>
     </>

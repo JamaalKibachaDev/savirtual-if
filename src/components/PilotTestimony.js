@@ -2,7 +2,7 @@ import React from "react";
 import { FaQuoteLeft } from "react-icons/fa";
 import { FaQuoteRight } from "react-icons/fa";
 
-import { PilotTestimonies } from "../assets/data";
+import { PilotTestimonies1, PilotTestimonies2 } from "../assets/data";
 
 import "./css/Header.css";
 
@@ -17,12 +17,26 @@ const PilotTestimony = () => {
           <FaQuoteLeft className="quote__left" />
         </div>
         <div className="text text-center">
-          {PilotTestimonies.map(({ testimonial }) => (
-            <p>{testimonial}</p>
-          ))}
-          <blockquote className="text-muted fst-italic">
-            - SAAV Senior Pilot
+          {PilotTestimonies1.map(({ testimonial, rank }) => (
+            <>
+            <p className="testimonial__p">"{testimonial}"</p>
+            <blockquote className="text-muted fst-italic">
+            - {rank}
           </blockquote>
+          </>
+          ))}
+         
+        </div>
+        <div className="text text-center">
+          {PilotTestimonies2.map(({ testimonial, rank}) => (
+            <>
+            <p className="testimonial__p">"{testimonial}"</p>
+            <blockquote className="text-muted fst-italic">
+            - {rank}
+          </blockquote>
+          </>
+          ))}
+          
         </div>
         <div className="right d-flex justify-content-center">
           <FaQuoteRight className="quote__right" />

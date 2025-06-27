@@ -16,6 +16,7 @@ import Ranks from "./pages/Ranks";
 
 //scroll to top btn
 import ScrollToTop from "react-scroll-to-top";
+import Codeshares from "./pages/Codeshares";
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
         <Route path="/sa-virtual/staff" element={<Staff />} />
         <Route path="/sa-virtual/fleet" element={<Fleet />} />
         <Route path="/sa-virtual/ranks" element={<Ranks />} />
+        <Route path="/sa-virtual/codeshares" element={<Codeshares />}/>
       </Routes>
 
       <Footer />

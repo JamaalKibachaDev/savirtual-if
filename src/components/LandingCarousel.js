@@ -12,8 +12,8 @@ const LandingCarousel = () => {
     <div className="landing__container">
       <Carousel fade className="landing__carousel">
         {homeCarousel.map(({ id, image, alt }) => (
-          <CarouselItem key={id} interval={2800}>
-            <img src={image} alt={alt} className="w-100" />
+          <CarouselItem key={id} interval={2800} className="carousel__item">
+            <img src={image} alt={alt} className="d-block carousel__img" />
           </CarouselItem>
         ))}
       </Carousel>

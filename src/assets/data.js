@@ -323,7 +323,7 @@ export const StaffCrewHeader = [
     id: "35",
     title: "Our Staff: ",
     description:
-      "We really appreciate the work and effort put in by our staff in the VA Operations. Feel free to reach out to them via IFC in case of any inquiries:",
+      "We truly appreciate the work and effort put in by our staff in the VA Operations. Feel free to reach out to them via IFC in case of any inquiries:",
   },
 ];
 
@@ -475,9 +475,19 @@ export const HubAiport2 = [
 ];
 
 
-export const PilotTestimonies = [
+export const PilotTestimonies1 = [
   {
     id: "",
-    testimonial: " The supportive community and detailed training have helped me gain valuable experience, boosting my skills and confidence in the virtual skies. Highly recommend joining!👌"
+    testimonial: "The supportive community and detailed training have helped me gain valuable experience, boosting my skills and confidence in the virtual skies. Highly recommend joining!👌",
+    rank: "SAAV Senior Pilot"
   }
+]
+
+export const PilotTestimonies2 = [
+  {
+    id: "",
+    testimonial: "I had smooth application process and an overall great experience with the team during the training sessions. Glad to be a part of the VA! Cheers🥂 ",
+    rank: "SAAV Trainee"
+  }
+
 ]
