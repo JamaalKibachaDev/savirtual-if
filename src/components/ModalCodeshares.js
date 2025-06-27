@@ -16,7 +16,7 @@ const ModalCodeshares = () => {
           className="modal show"
           style={{ display: "block", position: "initial" }}
         >
-          <Modal.Dialog className="shadow">
+          <Modal.Dialog>
             <Modal.Header>
               <Modal.Title className="fw-lighter fst-italic">
                 SAAV Codeshares

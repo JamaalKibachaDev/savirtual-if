@@ -486,7 +486,7 @@ export const PilotTestimonies1 = [
 export const PilotTestimonies2 = [
   {
     id: "",
-    testimonial: "I had smooth application process and an overall great experience with the team during the training sessions. Glad to be a part of the VA! Cheers🥂 ",
+    testimonial: "I had a smooth application process and an overall great experience with the team during the training sessions. Glad to be a part of the VA! Cheers🥂 ",
     rank: "SAAV Trainee"
   }
 

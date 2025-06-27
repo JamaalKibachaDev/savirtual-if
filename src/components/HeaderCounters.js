@@ -7,7 +7,7 @@ const HeaderCounters = () => {
   return (
     <>
       <div className="container">
-        <div className="text-center my-5 d-flex justify-content-evenly border p-2 rounded shadow-sm">
+        <div className="text-center mb-5 d-flex justify-content-evenly border p-2 rounded shadow-sm">
           <div className="route__counter">
             <h6 className="fw-lighter">Routes🌎</h6>
             <SlotCounter value={30} duration={3} animateOnVisible />
