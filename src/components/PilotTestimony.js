@@ -10,6 +10,9 @@ const PilotTestimony = () => {
   return (
     <>
       <div className="container p-5">
+        <h4 className="text-center testimonials__h4">
+          Pilot Testimonials
+        </h4>
         <div className="left d-flex justify-content-center">
           <FaQuoteLeft className="quote__left" />
         </div>

@@ -33,6 +33,11 @@
   margin: 0.5em;
 }
 
+.testimonials__h4{
+  text-decoration: overline 0.5px;
+  font-style: italic;
+}
+
 
 @media (width > 900px ) {
   .header__h3{
