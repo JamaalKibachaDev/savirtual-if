@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import ButtonGroup from "react-bootstrap/ButtonGroup";
+import Card from "react-bootstrap/Card";
 
 import "./css/RouteDb.css";
 import { ReactComponent as AirtableLogo } from "../assets/Airtable_Logo.svg";
@@ -39,6 +40,7 @@ const AirtableEmbed = () => {
 <hr/>
         <div className="container container__hubs mt-3 p-3">
           <div className="images__container">
+            <Card className="card__hub px-3 m-2 shadow">
             {HubAiport1.map(({ id, image, alt, name, opened, elevation, rwy1, rwy2 }) => (
               <>
                 <div className="img__hubs">
@@ -46,7 +48,7 @@ const AirtableEmbed = () => {
                     id={id}
                     src={image}
                     alt={alt}
-                    className="rounded my-3 shadow hub__images"
+                    className="rounded my-3 hub__images"
                   />
                   <p className="text-center m-2 fw-bold">{name}</p>
                   <p className="text-center">
@@ -62,7 +64,9 @@ const AirtableEmbed = () => {
                 </div>
               </>
             ))}
+            </Card>
 
+            <Card className="card__hub px-3 m-2 shadow">
             {HubAiport2.map(({ id, image, alt, name, opened, elevation, rwy1, rwy2 }) => (
               <>
                 <div className="img__hubs">
@@ -70,7 +74,7 @@ const AirtableEmbed = () => {
                     id={id}
                     src={image}
                     alt={alt}
-                    className="rounded my-3 shadow hub__images"
+                    className="rounded my-3 hub__images"
                   />
                   <p className="text-center m-2 fw-bold">{name}</p>
                   <p className="text-center">
@@ -87,6 +91,7 @@ const AirtableEmbed = () => {
                 </div>
               </>
             ))}
+            </Card>
           </div>
         </div>
 

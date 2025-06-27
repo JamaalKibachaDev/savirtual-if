@@ -23,10 +23,10 @@ import img13 from "./saav-crj-200.jpg";
 import img20 from "./f18-fleet.jpg";
 
 //ranks
-import img14 from "./trainee__rank.jpg";
-import img15 from "./fo__rank.jpg";
-import img16 from "./senior__pilot_rank.jpg";
-import img17 from "./captain__rank.jpg";
+import img14 from "./trainee_rk.jpeg";
+import img15 from "./fofficer_rk.jpeg";
+import img16 from "./snr_pilot_rk.jpeg";
+import img17 from "./captain_rk.jpeg";
 
 //hubs
 import img18 from "./faor__airport.jpeg";
@@ -184,10 +184,10 @@ export const SAAVFleet = [
     id: "19",
     aircraft: "Airbus A330-300",
     image: img4,
-    range: "11750",
-    crzSpeed: "0.86",
+    range: "13,450",
+    crzSpeed: "0.82",
     maxAlt: "410",
-    capacity: "440",
+    capacity: "287",
     alt: "a330img",
   },
 
@@ -195,7 +195,7 @@ export const SAAVFleet = [
     id: "20",
     aircraft: "Airbus A350-900",
     image: img5,
-    range: "15750",
+    range: "15,000",
     crzSpeed: "0.85",
     maxAlt: "430",
     capacity: "440",
@@ -206,10 +206,10 @@ export const SAAVFleet = [
     id: "21",
     aircraft: "Airbus A340-600",
     image: img6,
-    range: "13000",
-    crzSpeed: "0.83",
-    maxAlt: "415",
-    capacity: "400",
+    range: "14,450",
+    crzSpeed: "0.82",
+    maxAlt: "410",
+    capacity: "370",
     alt: "a340img",
   },
 
@@ -217,10 +217,10 @@ export const SAAVFleet = [
     id: "22",
     aircraft: "Airbus A320",
     image: img7,
-    range: "6500",
+    range: "6,100",
     crzSpeed: "0.78",
     maxAlt: "390",
-    capacity: "180",
+    capacity: "175",
     alt: "a320img",
   },
 
@@ -228,10 +228,10 @@ export const SAAVFleet = [
     id: "23",
     aircraft: "Airbus A319",
     image: img8,
-    range: "6000",
+    range: "6,900",
     crzSpeed: "0.78",
     maxAlt: "400",
-    capacity: "150",
+    capacity: "136",
     alt: "a319img",
   },
 
@@ -239,10 +239,10 @@ export const SAAVFleet = [
     id: "24",
     aircraft: "Boeing 747-200",
     image: img9,
-    range: "12700",
-    crzSpeed: "0.85",
+    range: "12,150",
+    crzSpeed: "0.84",
     maxAlt: "450",
-    capacity: "550",
+    capacity: "405",
     alt: "747img",
   },
 
@@ -250,10 +250,10 @@ export const SAAVFleet = [
     id: "25",
     aircraft: "Boeing 737-800",
     image: img10,
-    range: "5800",
+    range: "5,400",
     crzSpeed: "0.78",
     maxAlt: "410",
-    capacity: "162",
+    capacity: "189",
     alt: "737img",
   },
 
@@ -261,10 +261,10 @@ export const SAAVFleet = [
     id: "26",
     aircraft: "Dash 8 Q-400",
     image: img11,
-    range: "2000",
-    crzSpeed: "0.55",
+    range: "2,000",
+    crzSpeed: "0.52",
     maxAlt: "250",
-    capacity: "78",
+    capacity: "89",
     alt: "q400img",
   },
 
@@ -272,10 +272,10 @@ export const SAAVFleet = [
     id: "27",
     aircraft: "CRJ-700",
     image: img12,
-    range: "3200",
-    crzSpeed: "0.80",
+    range: "2,550",
+    crzSpeed: "0.78",
     maxAlt: "410",
-    capacity: "75",
+    capacity: "67",
     alt: "crj7img",
   },
 
@@ -283,10 +283,10 @@ export const SAAVFleet = [
     id: "28",
     aircraft: "CRJ-200",
     image: img13,
-    range: "3000",
+    range: "3,150",
     crzSpeed: "0.74",
     maxAlt: "410",
-    capacity: "50",
+    capacity: "51",
     alt: "crj2img",
   },
 
@@ -294,10 +294,10 @@ export const SAAVFleet = [
     id: "29",
     aircraft: "F/A-18E Super Hornet",
     image: img20,
-    range: "3000",
-    crzSpeed: "0.74",
-    maxAlt: "410",
-    capacity: "50",
+    range: "2,300",
+    crzSpeed: "0.89",
+    maxAlt: "500",
+    capacity: "--",
     alt: "crj2img",
   },
 ];
@@ -376,9 +376,9 @@ export const StaffCrew = [
 
   {
     id: "",
-    name: "InfiniteBreezy",
+    name: "sqdwg8vczr",
     Rank: "SMM Assistant",
-    link: new URL("https://community.infiniteflight.com/u/InfiniteBreezy/summary"),
+    link: new URL("https://community.infiniteflight.com/u/sqdwg8vczr/summary"),
   },
   {
     id: "43",
@@ -473,3 +473,11 @@ export const HubAiport2 = [
     alt: "fact__airport",
   },
 ];
+
+
+export const PilotTestimonies = [
+  {
+    id: "",
+    testimonial: " The supportive community and detailed training have helped me gain valuable experience, boosting my skills and confidence in the virtual skies. Highly recommend joining!👌"
+  }
+]

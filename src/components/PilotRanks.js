@@ -15,9 +15,9 @@ const PilotRanks = () => {
             <div className='ranks__data'>
             {ranksData.map(({id, image, description}) => (
                 <>
-                <div cLassName='ranks__item'>
-                    <img src={image} className='ranks__img my-2' alt='ranks__img'/>
-                    <p className='text-end'>{description}</p>
+                <div cLassName='ranks__item '>
+                    <img src={image} className='ranks__img my-2 shadow-sm border' alt='ranks__img'/>
+                    <p className='text-start'>{description}</p>
                 </div>
                 </>
             ))}

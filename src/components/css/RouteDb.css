@@ -15,6 +15,13 @@
   width: 100%;
 }
 
+.card__hub{
+  transition: 0.5s;
+}
+
+.card__hub:hover{
+  transform: scale(1.01);
+}
 @media (width > 600px) {
   .route__description {
     margin-inline: 5em;

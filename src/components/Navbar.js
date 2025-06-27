@@ -7,7 +7,7 @@ import { CiMenuBurger } from "react-icons/ci";
 
 import Offcanvas from "react-bootstrap/Offcanvas";
 
-import { ReactComponent as SAAVLogo } from "../assets/saav.svg";
+import SAAVLogo from '../assets/saav-no-shadow.png'
 
 import "./css/NavBar.css";
 import { NavLink } from "react-router-dom";
@@ -33,8 +33,9 @@ const NavBar = ({ onClick }) => {
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container className="px-2 d-flex justify-content-between">
           <Navbar.Brand href="/sa-virtual/home">
-            <SAAVLogo width="100" height="100" className=""/>
+          <img src={SAAVLogo} alt="" width='100' height='100' />
           </Navbar.Brand>
+        
           <CiMenuBurger onClick={handleShow} className="CiMenuBurger mx-3" />
         </Container>
 

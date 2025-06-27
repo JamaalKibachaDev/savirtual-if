@@ -44,8 +44,6 @@ const Footer = () => {
                 <p className="footer__desc text-secondary">
                   Infinite Flight's South African Virtual is not affiliated with
                   or endorsed by the real SA Airways in any way. <br/>
-                  All SAAV logos
-                  are registered trademarks of South African Airways.
                 </p>
               </div>
             </section>

@@ -7,6 +7,7 @@ import './css/Header.css'
 import { homeCards } from "../assets/data";
 
 
+
 //icons
 
 
@@ -14,10 +15,9 @@ const InfoCards = () => {
   return (
     <>
       <div className="container px-4">
-        <div className="card__container">
+        <div className="card__container text-center p-3">
         {homeCards.map(({id, title, icon, description}) => (
           <>
-
           <Card.Title className="d-flex justify-content-center p-2">
            {title}
           </Card.Title>

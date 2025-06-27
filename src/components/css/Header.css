@@ -3,6 +3,14 @@
   box-shadow: -1px 1px 5px;
 }
 
+.card__body{
+  transition: 0.5s;
+}
+
+.card__body:hover{
+  transform: scale(1.05);
+}
+
 .header__h3{
   font-size: 1.6rem;
 }
@@ -19,6 +27,11 @@
   transform: scale(1.08);
 }
 
+
+.quote__left, .quote__right{
+  font-size: 2em;
+  margin: 0.5em;
+}
 
 
 @media (width > 900px ) {

@@ -14,9 +14,6 @@ const VATrailer = () => {
             allowfullscreen
           ></iframe>
         </div>
-       <blockquote className="text-center text-secondary">
-        SAAV Trailer
-       </blockquote>
 
     </>
   );
