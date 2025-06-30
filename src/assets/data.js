@@ -480,7 +480,7 @@ export const StaffCrew = [
 
   {
     id: "",
-    name: "UniqueAvgeek",
+    name: "ST-ART",
     Rank: "CEO Aids",
     link: new URL("https://community.infiniteflight.com/u/st-art/summary"),
     image: img33,
