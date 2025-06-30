@@ -202,7 +202,7 @@ export const staffPage = [
     id: "37",
     image: img22,
     description:
-      "Hi I’m Rile. The CFO of South African virtual and I have 391 hours of flight time in the virtual world of Infinite Flight,you guys will definitely enjoy this VA!👌",
+      "Hi I’m Rile. The CFO of South African Virtual and I have 300+ hours of flight time in the virtual world of Infinite Flight,you guys will definitely enjoy this VA!👌",
     username: "Rile",
     role: "- Chief Financial Officer",
     alt: "staff-pfp",
