@@ -386,7 +386,7 @@ export const StaffCrew = [
   {
     id: "41",
     name: "Uncle_Kofi",
-    Rank: "HR Assistant",
+    Rank: "H.Resource Assistant",
     link: new URL("https://community.infiniteflight.com/u/Uncle_Kofi/summary"),
     image: img26,
   },
