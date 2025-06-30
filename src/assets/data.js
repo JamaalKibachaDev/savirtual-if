@@ -8,6 +8,19 @@ import img1_2 from "./saav-q400-tail.jpg";
 //staff pfp
 import img2 from "./josiah-dennis-pfp.jpeg";
 import img3 from "./lufthansa1-pfp.jpeg";
+import img21 from "./dimitrios__pfp.jpeg";
+import img22 from "./rile__pfp.png";
+import img23 from "./synxchazz__pfp.jpeg";
+import img24 from "./jurassicworld4eva__pfp.png";
+import img25 from "./cappy__pfp.jpeg";
+import img26 from "./kofi__pfp.jpeg";
+import img27 from "./aviator1__pfp.jpeg";
+import img28 from "./sqdwg8vczr__pfp.png";
+import img29 from "./garyevans__pfp.jpeg";
+import img30 from "./actionjack__pfp.jpeg";
+import img31 from "./mousemd__pfp.jpeg";
+import img32 from "./educatelearn2__pfp.png";
+import img33 from "./start__pfp.jpeg";
 
 //fleet
 import img4 from "./a330-fleet.jpg";
@@ -37,8 +50,8 @@ export const homeHeader = [
     id: "1",
     title: "Welcome to South African Virtual",
     description:
-      "We are a prominent virtual airline within the Infinite Flight community. Dedicated to replicating the real-world operations of South African Airways, Our VA offers a highly professional and immersive flying experience in the IF skies.",
-  },
+      "Welcome to South African Virtual, we make sure to take care of our pilots at all times. Our VA is highly realistic with a fleet ranging from the Q400 to the B742, with our large fleet we are able to reach many parts of the world including Perth Australia to Atlanta Georgia.We always enjoy seeing new pilots!"
+  }
 ];
 
 export const homeCarousel = [
@@ -332,7 +345,10 @@ export const StaffCrew = [
     id: "36",
     name: "Dimitrios_TA",
     Rank: "Contracting Officer Rep",
-    link: new URL("https://community.infiniteflight.com/u/dimitrios_ta/summary"),
+    link: new URL(
+      "https://community.infiniteflight.com/u/dimitrios_ta/summary"
+    ),
+    image: img21,
   },
 
   {
@@ -340,6 +356,7 @@ export const StaffCrew = [
     name: "Rile",
     Rank: "Chief Financial Officer",
     link: new URL("https://community.infiniteflight.com/u/rile/summary"),
+    image: img22,
   },
 
   {
@@ -347,31 +364,38 @@ export const StaffCrew = [
     name: "SynxChazz",
     Rank: "Chief Marketing Officer",
     link: new URL("https://community.infiniteflight.com/u/SynxChazz/summary"),
+    image: img23,
   },
 
   {
     id: "39",
     name: "JurassicWorld4Ever",
     Rank: "Event Manager",
-    link: new URL("https://community.infiniteflight.com/u/JurassicWorld4Ever/summary"),
+    link: new URL(
+      "https://community.infiniteflight.com/u/JurassicWorld4Ever/summary"
+    ),
+    image: img24,
   },
   {
     id: "40",
     name: "Cappy",
     Rank: "Human Resource",
     link: new URL("https://community.infiniteflight.com/u/cappy/summary"),
+    image: img25,
   },
   {
     id: "41",
     name: "Uncle_Kofi",
     Rank: "HR Assistant",
     link: new URL("https://community.infiniteflight.com/u/Uncle_Kofi/summary"),
+    image: img26,
   },
   {
     id: "42",
     name: "Aviator1",
     Rank: "Social Media Marketing",
     link: new URL("https://community.infiniteflight.com/u/Avaitor1/summary"),
+    image: img27,
   },
 
   {
@@ -379,19 +403,24 @@ export const StaffCrew = [
     name: "sqdwg8vczr",
     Rank: "SMM Assistant",
     link: new URL("https://community.infiniteflight.com/u/sqdwg8vczr/summary"),
+    image: img28,
   },
   {
     id: "43",
     name: "Gary_Evans",
     Rank: "Route Manager",
     link: new URL("https://community.infiniteflight.com/u/Gary_Evans/summary"),
+    image: img29,
   },
 
   {
     id: "",
     name: "Action_Jackson",
     Rank: "Flight Supervisor",
-    link: new URL("https://community.infiniteflight.com/u/Action_jackson/summary"),
+    link: new URL(
+      "https://community.infiniteflight.com/u/Action_jackson/summary"
+    ),
+    image: img30,
   },
 
   {
@@ -399,19 +428,24 @@ export const StaffCrew = [
     name: "Mouse_MD",
     Rank: "Data Analysis Officer",
     link: new URL("https://community.infiniteflight.com/u/Mouse_MD/summary"),
+    image: img31,
   },
 
   {
     id: "44",
     name: "Educate_Learn2",
     Rank: "CEO Aids",
-    link: new URL("https://community.infiniteflight.com/u/Educate_Learn2/summary"),
+    link: new URL(
+      "https://community.infiniteflight.com/u/Educate_Learn2/summary"
+    ),
+    image: img32,
   },
   {
     id: "45",
     name: "ST-ART",
     Rank: "CEO Aids",
     link: new URL("https://community.infiniteflight.com/u/ST-ART/summary"),
+    image: img33,
   },
 ];
 
@@ -474,20 +508,20 @@ export const HubAiport2 = [
   },
 ];
 
-
 export const PilotTestimonies1 = [
   {
     id: "",
-    testimonial: "The supportive community and detailed training have helped me gain valuable experience, boosting my skills and confidence in the virtual skies. Highly recommend joining!👌",
-    rank: "SAAV Senior Pilot"
-  }
-]
+    testimonial:
+      "The supportive community and detailed training have helped me gain valuable experience, boosting my skills and confidence in the virtual skies. Highly recommend joining!👌",
+    rank: "SAAV Senior Pilot",
+  },
+];
 
 export const PilotTestimonies2 = [
   {
     id: "",
-    testimonial: "I had a smooth application process and an overall great experience with the team during the training sessions. Glad to be a part of the VA! Cheers🥂 ",
-    rank: "SAAV Trainee"
-  }
-
-]
+    testimonial:
+      "I had a smooth application process and an overall great experience with the team during the training sessions. Glad to be a part of the VA! Cheers🥂 ",
+    rank: "SAAV Trainee",
+  },
+];

@@ -1,5 +1,7 @@
 import React from "react";
 
+import Card from 'react-bootstrap/Card';
+
 import { StaffCrew, StaffCrewHeader } from "../assets/data";
 
 import "./css/Staff.css";
@@ -17,21 +19,31 @@ const StaffRanks = () => {
             </>
           ))}
 
-          <div className="staff__container border-top">
-            <h6 className="h6__links text-center mt-4">IFC LINKS 🔗</h6>
-            {StaffCrew.map(({ id, name, Rank, link }) => (
+       
+          <Card className="staff__rank__card" border="secondary">
+
+            {StaffCrew.map(({name, Rank, link, image}) => (
               <>
-                <div className="staff__ranks mt-4 text-center">
-                  <a
-                    href={link}
-                    className="text-secondary text-decoration-none"
-                  >
-                    {name}: {Rank}
-                  </a>
-                </div>
+              <a href={link}  className="text-decoration-none ">
+                <Card.Header className="bg-gradient"/>
+                <Card.Body className="mb-4 d-flex justify-content-evenly">
+                <img
+                      src={image}
+                      alt="staff-img"
+                      className="staff-pfp rounded-circle"
+                    />
+                  <blockquote className="blockquote mb-0">
+                    <p className="fs-6 p-2">{Rank}</p>
+                    <footer className="blockquote-footer">
+                    {name}
+                    </footer>
+                  </blockquote>
+                </Card.Body>
+                </a>
               </>
             ))}
-          </div>
+          </Card>
+         
         </div>
       </div>
     </>

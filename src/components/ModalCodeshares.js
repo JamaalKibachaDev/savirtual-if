@@ -24,12 +24,14 @@ const ModalCodeshares = () => {
             </Modal.Header>
 
             <Modal.Body className="text-center my-4">
-              <p>WIP! <br/> Coming Soon😉</p>
-              <MdBuildCircle className="fs-1"/>
+              <p>
+                WIP! <br /> Coming Soon😉
+              </p>
+              <MdBuildCircle className="fs-1" />
             </Modal.Body>
 
             <Modal.Footer>
-              <Button variant="secondary" onClick={redirect}>
+              <Button variant="dark" onClick={redirect}>
                 Close
               </Button>
             </Modal.Footer>
