@@ -33,7 +33,6 @@ import img10 from "./saav-b738.jpeg";
 import img11 from "./saav-dash8.jpg";
 import img12 from "./saav-crj700.jpg";
 import img13 from "./saav-crj-200.jpg";
-import img20 from "./f18-fleet.jpg";
 
 //ranks
 import img14 from "./trainee_rk.jpeg";
@@ -303,16 +302,6 @@ export const SAAVFleet = [
     alt: "crj2img",
   },
 
-  {
-    id: "29",
-    aircraft: "F/A-18E Super Hornet",
-    image: img20,
-    range: "2,300",
-    crzSpeed: "0.89",
-    maxAlt: "500",
-    capacity: "--",
-    alt: "crj2img",
-  },
 ];
 
 export const routeHeader = [
