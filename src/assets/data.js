@@ -21,6 +21,10 @@ import img30 from "./actionjack__pfp.jpeg";
 import img31 from "./mousemd__pfp.jpeg";
 import img32 from "./educatelearn2__pfp.png";
 import img33 from "./start__pfp.jpeg";
+import img34 from "./uniqueavgeek__pfp.jpeg";
+import img35 from "./ravager41__pfp.png";
+import img36 from "./castle__pfp.jpeg";
+import img37 from "./brrttt5__pfp.jpeg";
 
 //fleet
 import img4 from "./a330-fleet.jpg";
@@ -49,8 +53,8 @@ export const homeHeader = [
     id: "1",
     title: "Welcome to South African Virtual",
     description:
-      "Welcome to South African Virtual, we make sure to take care of our pilots at all times. Our VA is highly realistic with a fleet ranging from the Q400 to the B742, with our large fleet we are able to reach many parts of the world including Perth Australia to Atlanta Georgia. We always enjoy seeing new pilots!"
-  }
+      "Welcome to South African Virtual, we make sure to take care of our pilots at all times. Our VA is highly realistic with a fleet ranging from the Q400 to the B742, with our large fleet we are able to reach many parts of the world including Perth Australia to Atlanta Georgia. We always enjoy seeing new pilots!",
+  },
 ];
 
 export const homeCarousel = [
@@ -178,6 +182,9 @@ export const staffPage = [
     username: "Josiah Dennis",
     role: "- SAAV CEO",
     alt: "staff-pfp",
+    link: new URL(
+      "https://community.infiniteflight.com/u/josiah_dennis/summary"
+    ),
   },
 
   {
@@ -188,6 +195,18 @@ export const staffPage = [
     username: "Lufthansa1",
     role: "- SAAV COO",
     alt: "staff-pfp",
+    link: new URL("https://community.infiniteflight.com/u/lufthansa1/summary"),
+  },
+
+  {
+    id: "37",
+    image: img22,
+    description:
+      "Hi I’m Rile. The CFO of South African virtual and I have 391 hours of flight time in the virtual world of Infinite Flight,you guys will definitely enjoy this VA!👌",
+    username: "Rile",
+    role: "- Chief Financial Officer",
+    alt: "staff-pfp",
+    link: new URL("https://community.infiniteflight.com/u/rile/summary"),
   },
 ];
 
@@ -301,7 +320,6 @@ export const SAAVFleet = [
     capacity: "51",
     alt: "crj2img",
   },
-
 ];
 
 export const routeHeader = [
@@ -341,19 +359,19 @@ export const StaffCrew = [
   },
 
   {
-    id: "37",
-    name: "Rile",
-    Rank: "Chief Financial Officer",
-    link: new URL("https://community.infiniteflight.com/u/rile/summary"),
-    image: img22,
-  },
-
-  {
     id: "38",
     name: "SynxChazz",
     Rank: "Chief Marketing Officer",
     link: new URL("https://community.infiniteflight.com/u/SynxChazz/summary"),
     image: img23,
+  },
+
+  {
+    id: "",
+    name: "Mouse_MD",
+    Rank: "Data Analysis Officer",
+    link: new URL("https://community.infiniteflight.com/u/Mouse_MD/summary"),
+    image: img31,
   },
 
   {
@@ -365,6 +383,25 @@ export const StaffCrew = [
     ),
     image: img24,
   },
+
+  {
+    id: "",
+    name: "UniqueAvgeek",
+    Rank: "Graphic Designer",
+    link: new URL(
+      "https://community.infiniteflight.com/u/UniqueAvgeek/summary"
+    ),
+    image: img34,
+  },
+
+  {
+    id: "",
+    name: "Castle",
+    Rank: "Chief Info. Officer",
+    link: new URL("https://community.infiniteflight.com/u/Castle/summary "),
+    image: img36,
+  },
+
   {
     id: "40",
     name: "Cappy",
@@ -379,6 +416,15 @@ export const StaffCrew = [
     link: new URL("https://community.infiniteflight.com/u/Uncle_Kofi/summary"),
     image: img26,
   },
+
+  {
+    id: "",
+    name: "Ravager41",
+    Rank: "Chief Pilot",
+    link: new URL("https://community.infiniteflight.com/u/Ravager41/summary "),
+    image: img35,
+  },
+
   {
     id: "42",
     name: "Aviator1",
@@ -404,20 +450,22 @@ export const StaffCrew = [
 
   {
     id: "",
+    name: "Brttttttttt5",
+    Rank: "Asst. Route Manager",
+    link: new URL(
+      "https://community.infiniteflight.com/u/brttttttttt5/summary "
+    ),
+    image: img37,
+  },
+
+  {
+    id: "",
     name: "Action_Jackson",
     Rank: "Flight Supervisor",
     link: new URL(
       "https://community.infiniteflight.com/u/Action_jackson/summary"
     ),
     image: img30,
-  },
-
-  {
-    id: "",
-    name: "Mouse_MD",
-    Rank: "Data Analysis Officer",
-    link: new URL("https://community.infiniteflight.com/u/Mouse_MD/summary"),
-    image: img31,
   },
 
   {
@@ -429,11 +477,12 @@ export const StaffCrew = [
     ),
     image: img32,
   },
+
   {
-    id: "45",
-    name: "ST-ART",
+    id: "",
+    name: "UniqueAvgeek",
     Rank: "CEO Aids",
-    link: new URL("https://community.infiniteflight.com/u/ST-ART/summary"),
+    link: new URL("https://community.infiniteflight.com/u/st-art/summary"),
     image: img33,
   },
 ];
