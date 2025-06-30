@@ -32,8 +32,8 @@ const StaffRanks = () => {
                     />
 
                     <blockquote className="blockquote mb-0">
-                      <p className="fs-6 p-2">{Rank}</p>
-                      <footer className="blockquote-footer">{name}</footer>
+                      <p className="staff_rank_p fs-6 p-2">{Rank}</p>
+                      <footer className="staff_rank_p blockquote-footer">{name}</footer>
                     </blockquote>
                   </Card.Body>
                 </a>

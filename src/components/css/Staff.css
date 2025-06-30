@@ -18,6 +18,12 @@
     font-style: italic;
 }
 
+.staff_rank_p{
+    min-width: 12em;
+}
+
+
+
 
 
 @media (width > 600px) {
