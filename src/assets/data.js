@@ -351,7 +351,7 @@ export const StaffCrew = [
   {
     id: "36",
     name: "Dimitrios_TA",
-    Rank: "Contracting Officer Representative",
+    Rank: "Contracting Officer Rep.",
     link: new URL(
       "https://community.infiniteflight.com/u/dimitrios_ta/summary"
     ),
