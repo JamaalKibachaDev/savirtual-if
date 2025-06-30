@@ -23,7 +23,7 @@ const HeaderCounters = () => {
           <div className="fleet__counter">
             <h6 className="fw-lighter">Fleet✈️</h6>
             <SlotCounter value={10} duration={3} animateOnVisible />
-            <span className="text-muted"> +</span>
+            <span className="text-muted"/>
           </div>
         </div>
       </div>

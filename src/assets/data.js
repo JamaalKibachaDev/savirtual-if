@@ -49,7 +49,7 @@ export const homeHeader = [
     id: "1",
     title: "Welcome to South African Virtual",
     description:
-      "Welcome to South African Virtual, we make sure to take care of our pilots at all times. Our VA is highly realistic with a fleet ranging from the Q400 to the B742, with our large fleet we are able to reach many parts of the world including Perth Australia to Atlanta Georgia.We always enjoy seeing new pilots!"
+      "Welcome to South African Virtual, we make sure to take care of our pilots at all times. Our VA is highly realistic with a fleet ranging from the Q400 to the B742, with our large fleet we are able to reach many parts of the world including Perth Australia to Atlanta Georgia. We always enjoy seeing new pilots!"
   }
 ];
 

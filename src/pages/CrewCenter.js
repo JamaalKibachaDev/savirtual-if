@@ -5,10 +5,15 @@ const CrewCenter = () => {
   return (
     <>
       <div className="container">
+        <div className="my-4">
+      <h2 className="staff__h2 text-end">
+              Crew Center
+            </h2>
         <p className="text-center m-4">
-          Welcome to the South African Virtual Crew Center, click on the link below to get access.
-          Both Pilots and Staff are welcome to join.😉
+          Welcome to the <strong>South African Virtual Crew Center</strong>, click on the link below to get access.
+          Both <strong> Pilots</strong> and <strong>Staff</strong> are welcome to join.😉
         </p>
+        </div>
 
         <div className="d-flex justify-content-center">
           <Button variant="dark" className="shadow">

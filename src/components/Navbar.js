@@ -19,14 +19,13 @@ const NavBar = ({ onClick }) => {
 
   const navLinks = [
     { path: "/", title: "Home" },
- 
-    { path: "/sa-virtual/staff", title: "Staff" },
-    { path: "/sa-virtual/fleet", title: "Fleet" },
-    { path: "/sa-virtual/routedb", title: "Hubs & Route Database" },
-    { path: "/sa-virtual/ranks", title: "Ranks" },
-    { path: "/sa-virtual/crewCenter", title: "Crew Center" },
-    { path: "/sa-virtual/codeshares", title: "Codeshares" },
-    { path: "/sa-virtual/applyNow", title: "Apply Now" },
+    { path: "/staff", title: "Staff" },
+    { path: "/fleet", title: "Fleet" },
+    { path: "/routedb", title: "Hubs & Route Database" },
+    { path: "/ranks", title: "Ranks" },
+    { path: "/crewCenter", title: "Crew Center" },
+    { path: "/codeshares", title: "Codeshares" },
+    { path: "/applyNow", title: "Apply Now" },
 
   ];
 
@@ -34,7 +33,7 @@ const NavBar = ({ onClick }) => {
     <>
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container className="px-2 d-flex justify-content-between">
-          <Navbar.Brand href="/sa-virtual/home">
+          <Navbar.Brand href="/">
           <img src={SAAVLogo} alt="" width='100' height='100' />
           </Navbar.Brand>
         

@@ -28,14 +28,14 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/sa-virtual/aboutUs" element={<AboutUs />} />
-        <Route path="/sa-virtual/routedb" element={<RouteDb />} />
-        <Route path="/sa-virtual/applyNow" element={<ApplyNow />} />
-        <Route path="/sa-virtual/staff" element={<Staff />} />
-        <Route path="/sa-virtual/fleet" element={<Fleet />} />
-        <Route path="/sa-virtual/ranks" element={<Ranks />} />
-        <Route path="/sa-virtual/codeshares" element={<Codeshares />}/>
-        <Route path="/sa-virtual/crewCenter" element={<CrewCenter />}/>
+        <Route path="/aboutUs" element={<AboutUs />} />
+        <Route path="/routedb" element={<RouteDb />} />
+        <Route path="/applyNow" element={<ApplyNow />} />
+        <Route path="/staff" element={<Staff />} />
+        <Route path="/fleet" element={<Fleet />} />
+        <Route path="/ranks" element={<Ranks />} />
+        <Route path="/codeshares" element={<Codeshares />}/>
+        <Route path="/crewCenter" element={<CrewCenter />}/>
 
       </Routes>
 
