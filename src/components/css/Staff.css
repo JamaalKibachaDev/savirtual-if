@@ -1,52 +1,52 @@
-.staff__crew__p{
-    font-size: 0.9em;
+.staff__crew__p {
+  font-size: 0.9em;
 }
 
-
-.staff-pfp{
-    width: 25%;
+.staff-pfp {
+  width: 25%;
 }
 
-.h6__links{
-    text-decoration: overline;
-    font-weight: 900;
-    font-style: italic;
+.h6__links {
+  text-decoration: overline;
+  font-weight: 900;
+  font-style: italic;
 }
 
-.staff__crew{
-    margin-top: 3em;
-    font-style: italic;
-}
-
-.staff_rank_p{
-    min-width: 12em;
+.staff__crew {
+  margin-top: 3em;
+  font-style: italic;
 }
 
 
 
 
+.staff_rank_p {
+  min-width: 12em;
+}
 
 @media (width > 600px) {
-    .staff-pfp{
-        width: 15%;
-    }
+  .staff-pfp {
+    width: 15%;
+  }
 
-    .staff__crew__p{
-        font-size: 17px;
-      
-    }
+  .staff__crew__p {
+    font-size: 17px;
+  }
 }
 
 @media (width > 800px) {
-    .staff-pfp{
-        width: 10%;
-    }
+  .staff-pfp {
+    width: 10%;
+  }
 
-    .staff__crew__p{
-        margin-inline: 10em;
-    }
+  .staff__crew__p {
+    margin-inline: 10em;
+  }
 
-    .staff__rank__card{
-        margin-inline: 10em;
-    }
+}
+
+@media (width > 950px){
+  .staff__rank__card {
+    margin-inline: 5em;
+  }
 }

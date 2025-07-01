@@ -5,10 +5,16 @@
 
 }
 
-@media (width > 800px ){
+
+
+@media (width > 720px ){
     .ranks__data{
         display: grid;
         grid-template-columns: auto auto;
         padding: 2em;
+    }
+
+    .ranks__img{
+        width: 90%;
     }
 }
